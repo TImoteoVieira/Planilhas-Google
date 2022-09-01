@@ -1,0 +1,17 @@
+{
+  "name": "google-spreadsheet",
+  "version": "1.0.0",
+  "description": "Script para manipular planilhas google em NodeJS",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TImoteo Vieira",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "google-spreadsheet": "^3.3.0",
+    "nodemon": "^2.0.19"
+  },
+  "keywords": []
+}
