@@ -11,7 +11,7 @@
 
 ## Tutorial
 
-Siga o [tutorial](https://theoephraim.github.io/node-google-spreadsheet/#/getting-started/authentication) da google-spreadsheet. 
+Siga o [tutorial](https://theoephraim.github.io/node-google-spreadsheet/#/getting-started/authentication) de autenticação da google-spreadsheet. 
 
 Na sua planilha google, autorize o email da chave "client_email" que está no arquivo json de credenciais que você baixou do google console developers.
 
