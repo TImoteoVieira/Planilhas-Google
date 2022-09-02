@@ -47,6 +47,24 @@ auth().then(doc => {
     })
 })
 
+//atualizando valores da tabela
+auth().then(doc => {
+    const sheet = doc.sheetsByIndex[0];
+    sheet.getRows().then(rows => {
+        rows.map(row => {
+            if(row.nome === "Timóteo"){
+                row.nome = "Timóteo - atualizado";
+                row.idade = 24.11;
+                row.email = "tm@gmail"
+                
+                row.save().then(() => {
+                    console.log('Campos atualizados');
+                });
+            }
+        });
+    })
+})
+
 //deletando valores da coluna
 auth().then(doc => {
   sheet = doc.sheetsByIndex[0];
